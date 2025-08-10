@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-text-primary: #0d141c;
+  --color-text-secondary: #49739c;
+
+  --color-background-secondary: #e7edf4;
+  --color-background-primary: #0c7ff2;
+}
+
+@layer base {
+  button {
+    @apply w-[5rem] flex justify-center items-center rounded-lg p-1 shadow cursor-pointer;
+  }
+
+  h2 {
+    @apply font-bold text-[1.3rem];
+  }
+
+  h3 {
+    @apply font-bold text-[1.2rem];
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply cursor-pointer;
+  }
+
+  .nav-link:hover {
+    @apply underline underline-offset-4;
+  }
+
+  .footer-link {
+    @apply cursor-pointer;
+  }
+
+  .socials {
+    @apply cursor-pointer;
+  }
+
+  .form-field {
+    @apply w-[70%] flex flex-col gap-1.5;
+  }
+
+  .form-field input {
+    @apply border rounded-lg px-2 py-1 border-background-secondary placeholder-text-secondary outline-none;
+  }
+
+  .form-field textarea {
+    @apply border rounded-lg px-2 py-1 min-h-35 border-background-secondary placeholder-text-secondary outline-none;
+  }
+
+  /* BuySidebar */
+
+  .filter-category {
+    @apply border border-background-secondary rounded-lg p-2;
+  }
+
+  /* Product Details */
+  .product-attributes {
+    @apply grid grid-cols-3 py-2 sm:gap-50 border-b border-b-background-secondary;
+  }
+}

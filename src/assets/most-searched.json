@@ -1,0 +1,40 @@
+{
+  "phones": [
+    {
+      "id": 1,
+      "brand": "Apple",
+      "model": "iPhone 8",
+      "storage_gb": 64,
+      "ram_gb": 2,
+      "camera_mp": { "main": 12, "front": 7 },
+      "condition": "Used - Good",
+      "price_usd": 120.0,
+      "image_url": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-8-4.jpg",
+      "description": "A classic iPhone 8 with minor cosmetic wear. Fully functional, unlocked, and ready for a new owner."
+    },
+    {
+      "id": 2,
+      "brand": "Samsung",
+      "model": "Galaxy S9",
+      "storage_gb": 64,
+      "ram_gb": 4,
+      "camera_mp": { "main": 12, "front": 8 },
+      "condition": "For Parts",
+      "price_usd": 55.0,
+      "image_url": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s9-1.jpg",
+      "description": "Samsung Galaxy S9 with a cracked screen. Motherboard and other internal components are intact. Ideal for salvaging parts."
+    },
+    {
+      "id": 3,
+      "brand": "Google",
+      "model": "Pixel 3a",
+      "storage_gb": 64,
+      "ram_gb": 4,
+      "camera_mp": { "main": 12.2, "front": 8 },
+      "condition": "Used - Fair",
+      "price_usd": 80.0,
+      "image_url": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-3a-1.jpg",
+      "description": "Google Pixel 3a in fair condition. Shows signs of use with some scratches on the body, but the screen is in good shape."
+    }
+  ]
+}
