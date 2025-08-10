@@ -18,7 +18,7 @@ const Pagination = ({
             key={page}
             onClick={() => setCurrentPage(page)}
             className={`${
-              page == currentPage &&
+              page === currentPage &&
               "bg-background-primary text-white scale-110 "
             } "border border-background-secondary rounded-lg px-1.5 py-0.5 hover:bg-background-primary hover:text-white`}
           >

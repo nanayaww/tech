@@ -18,7 +18,7 @@ const BuyPage = () => {
       if (maxPrice && phone.price_usd >= maxPrice) {
         return false;
       }
-      if (condition && phone.category != condition) {
+      if (condition && phone.category !== condition) {
         return false;
       }
       if (selectedBrands.length > 0 && !selectedBrands.includes(phone.brand)) {

@@ -3,7 +3,7 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const Support = () => {
   const [formFields, setFormFields] = useState({
-    name: " ",
+    name: "",
     email: "",
     message: "",
   });
@@ -52,7 +52,7 @@ const Support = () => {
       console.log("sent");
     }
     setFormFields({
-      name: " ",
+      name: "",
       email: "",
       message: "",
     });
