@@ -17,15 +17,17 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
-        <Route index element={<Home />} loader={loader} />
+        {/* <Route index element={<Home />} loader={loader} /> */}
+        <Route index element={<Home />} />
         <Route path="sell" element={<SellPage />} />
         <Route path="buy" element={<BuyLayout />}>
-          <Route index element={<BuyPage />} loader={loader} />
+          <Route index element={<BuyPage />} />
+          {/* <Route index element={<BuyPage />} loader={loader} /> */}
         </Route>
         <Route
           path=":id"
           element={<ProductsDetails />}
-          loader={productDetailsLoader}
+          // loader={productDetailsLoader}
         />
         <Route path="support" element={<Support />} />
       </Route>
